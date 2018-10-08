@@ -8,7 +8,7 @@
 
     $response = $api->createOrder(
         strval($orderId),
-        '89994955033',
+        '89924455041',
         array(
             0 => array(
                 'code' => 15,
@@ -18,7 +18,7 @@
         ),
         "50000",
         'new.domain',
-        "Игорь",
+        "Никита",
         strval($createdTime)
     );
     
